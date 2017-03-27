@@ -1,0 +1,35 @@
+@font-face {
+    font-family: "kg_she_persistedregular";
+    src: url('../font/kgshepersisted.woff2') format('woff2'),
+         url('../font/kgshepersisted.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+*{
+    margin: 0;
+    padding: 0;
+}
+body {
+    margin:0;
+            padding: 0;
+    height: 100%;
+            width: 100%;
+    background: lightgrey;
+            position: absolute;  
+    overflow-x: hidden;
+    font-family: "kg_she_persistedregular";
+            font-size: 110%;
+}
+
+header {/*image de tête*/
+    background-image: url("../image/image.png");
+            background-repeat: no-repeat;
+    background-size: 80%;
+            background-position: top center;
+    background-attachment: fixed;
+            height: 75%;                     
+}
+
+     

@@ -1,0 +1,70 @@
+ @font-face {   
+    font-family: candy;
+    src: url('../font/candy.woff2') format('woff2'),
+         url('../font/candy.woff') format('woff');
+    font-weight: normal;
+    font-style: normal; 
+}
+
+h2 {
+      font-family: candy;
+      font-size: 200%
+}
+
+article {
+            text-align: center;  
+
+
+}
+artclie:hover {
+    transform: scale(1.2);
+}
+
+
+#experience{
+    padding-top: 10em;
+    margin: -5em;
+    margin-left: -30em;
+    height: 25em;
+    background:url("../image/bulle_2.png") no-repeat;
+    background-position:72% 100%;
+    z-index: 1;
+}
+#hobbies{
+    float: left;
+    width: 50%;
+    margin: -23% 40%;
+    padding: 5em 10em;
+    height: 20em;
+    background:url("../image/bulle_3.png") no-repeat;
+    background-position:50% 0;
+    z-index: 2;
+}
+
+#competences{
+    padding-top: 6em;
+    margin: -1em 10em;
+    /*margin-bottom: -1em;*/
+    height: 25em;
+    background:url("../image/bulle_1.png") no-repeat ;
+    background-position:50% 0;
+    float:left;
+    width: 100%;
+    z-index: 3;
+
+
+}
+
+#formation{
+    float:left;
+    width: 50%;
+    margin-top: -20%;
+    padding-top: 4%;
+    height: 25em;
+    background:url("../image/bulle_4.png") no-repeat;
+    background-position:50% 0;
+    z-index: 4;
+ 
+}
+
+
