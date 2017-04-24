@@ -1,4 +1,4 @@
-var script = (function () {
+var curriculum = (function () {
 	
         //appliquer CSS
         var style = document.createElement("style");
