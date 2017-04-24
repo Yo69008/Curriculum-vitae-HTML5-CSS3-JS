@@ -7,7 +7,7 @@
         <script type="text/javascript" src="./lib/script/index.js" defer></script>
         <script>
             window.onload = function () {
-                script.welcome("Bonne visite");
+                curriculum.welcome("Bonne visite");
             };
         </script>
         <style>
